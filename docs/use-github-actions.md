@@ -80,6 +80,7 @@ build:
 **GHI CHÚ**
 
 -   Giá trị các biến `secrets` được lưu trong phần Setting của repo trên Github.
+-   Ở step `Build Application`, truyền vào env lấy từ `Secrets`
 -   Sử dụng action `docker/build-push-action@v4` để build & push image lên Dockerhub. Các biến `env` lưu ở `Secrets` & truyền vào quá trình build thông qua `build-args`
 
 ### 3.2 Deploy app
